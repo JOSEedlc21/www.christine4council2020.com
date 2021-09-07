@@ -1,0 +1,110 @@
+/*group 1 nav link styles: apply on top*/
+#navbarSupportedContent{
+	font-family:verdana pro;
+}
+#group1 a{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#group1:hover a{
+	color: grey;
+}
+
+#group1 a:hover{
+	color: white;
+}
+
+/*dropdown buttons*/
+#group1 #dropdownlinks a{
+	color: grey;
+}
+
+#group1:hover #dropdownlinks a{
+	color: grey;
+}
+
+#group1 #dropdownlinks a:hover{
+	color: #002060;
+}
+
+@media screen and (max-width: 1000px){ /*small screen*/
+	#group1 a{
+		color: #002060;
+	}
+	
+	#group1:hover a{
+		color: grey;
+	}
+	#group1 a:hover{
+		color: #002060;
+	}
+}
+
+/*group 2 nav link styles: apply on scroll*/
+#group2 a{
+	color: #002060;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#group2:hover a{
+	color: grey;
+}
+
+#group2 a:hover{
+	color: #002060;
+}
+
+/*dropdown buttons*/
+#group1 #dropdownlinks a{
+	color: grey;
+}
+
+#group1:hover #dropdownlinks a{
+	color: grey;
+}
+
+#group1 #dropdownlinks a:hover{
+	color: #002060;
+}
+
+#dropdownMenuButton{
+	padding-left: 0;
+}
+
+/*header*/
+#header{
+	width: 100%;
+	z-index: 90;
+	background: transparent;
+}	
+
+@media screen and (max-width: 1000px){ /*small screen*/
+	#header{
+		background: white;
+	}
+}
+
+/*
+     FILE ARCHIVED ON 03:08:54 Nov 28, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:53:03 Jul 20, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 258.699
+  exclusion.robots: 0.197
+  exclusion.robots.policy: 0.189
+  RedisCDXSource: 4.864
+  esindex: 0.009
+  LoadShardBlock: 231.109 (3)
+  PetaboxLoader3.datanode: 207.826 (4)
+  CDXLines.iter: 20.262 (3)
+  load_resource: 64.19
+  PetaboxLoader3.resolve: 41.71
+*/

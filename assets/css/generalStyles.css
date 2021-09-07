@@ -1,0 +1,272 @@
+body, html{
+	scroll-behavior: smooth;
+	margin: 0;
+}
+
+.card-deck {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: .5rem;
+}
+
+/*social media and music control bar*/
+.social-media-bar{
+	height: 40px;
+	background: white;
+	width: 100%;
+	top: 0;
+	z-index: 100;
+}
+
+.share-on-social{
+	width: 40px; height: auto; padding-left: 10px;
+}
+
+#banner{
+	min-height: 45rem;
+	width: auto;
+	background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 1)), URL('../img/lp.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	background-position: center;
+}
+
+img#logo{
+	transition: 0.5s;
+}
+
+.section{
+	min-height: 40rem;
+	padding: 20px;
+	background-color: white;
+}
+
+/*section headings*/
+.section-heading{
+	font-size: 35px;
+	text-align: center;
+	color: black;
+	padding-top: 10%;
+	font-family: "Arial", sans-serif;
+	font-weight: bold;
+}
+
+
+/*content backgrounds*/
+
+
+.darkred-background{
+	height: 30rem;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/web/20201128030855im_/https://www.christine4council2020.com/assets/img/ct.jpg");
+	background-size: cover;
+	position: absolute;
+}
+
+.downtown-background{
+	background-image: url("/web/20201128030855im_/https://www.christine4council2020.com/assets/img/favpic.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 30rem;
+	width: 100%;
+	position: absolute;
+}
+
+.community-background{
+	background-image: url("/web/20201128030855im_/https://www.christine4council2020.com/assets/img/newtowncenter2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 30rem;
+	width: 100%;
+}
+
+#statement-image{
+	width: 60%;
+	height: auto;
+}
+
+/*responsive: small screen*/
+@media screen and (max-width: 1000px){
+	#banner{
+		max-height: 100vh;
+	}
+
+	#statement-image{
+		width:100%;
+		height: auto;
+	}
+	#banner{
+		height: 130vh;
+		width: auto;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), URL("../img/CDLmobile.jpg");
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-size: cover;
+		background-image: top;
+		margin-top: 5rem;
+	}
+}
+
+/*banner caption*/
+.caption {
+	font-size: 200%;
+	text-align: center; 
+	color: white;
+	font-weight: bold;
+	font-family: 'verdana pro'
+}
+
+.siteLogo{
+	margin-top:10rem;
+	height: 100px;
+	width: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+
+
+/*responsive: small screen*/
+@media screen and (max-width: 1000px){
+	.caption{
+		font-size: 150% !important;
+		text-align: center;
+		color: white;
+		font-weight: bold;
+		font-family: 'verdana pro';
+	}		
+
+	.bar{
+		display:none;
+	}
+}
+
+/*footer*/
+.footer{
+	background: #002060; 
+	padding: 20px 20px 20px 20px;
+}
+
+.footer a{
+	color: white;
+	font-size: 14px;
+}
+
+.mustread{
+	float: right;
+	
+}
+
+#eduprof{
+	width: 120%;
+	padding-top:17%;
+}
+
+@media screen and (max-width: 1000px){
+	.mustread{
+		float: left;
+		padding-top: 40px;
+	}
+	#eduprof{
+		width: 100%;
+		padding-top:17%;
+	}
+}
+
+
+/*banner caption*/
+.siteTitle {
+	font-size: 250%;
+	text-align: center; 
+	color: white;
+	font-weight: bold;
+	font-family: 'verdana pro';
+}
+
+.siteLogo{
+	margin-top:10rem;
+	height: 100px;
+	width: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+/*responsive: small screen*/
+@media screen and (max-width: 1000px){
+	.siteTitle{
+		font-size: 200% !important;
+		text-align: center;
+		color: white;
+		font-weight: bold;
+		font-family: 'verdana pro';
+	}		
+	.bar{
+		display:none;
+	}
+}
+
+
+
+/*scroll to top button*/
+#upBtn{
+	position: fixed;
+	bottom: 5vh;
+	right: 1vw;
+	width: auto;
+	height: 80px;
+	cursor: pointer;
+	display: none;
+	z-index: 100;
+  }
+  
+  /*donation*/
+  .donation{
+  max-height: 350vh;
+  width: 100%;
+  background: #a5181c;
+  padding: 10px;
+  }
+  
+  .amountbtn{
+  width: 100%;
+  height: 50px;
+  background: red;
+  }
+  
+  .amount{
+  padding: 10px;
+  }
+  
+  @media screen and (max-width: 1000px){
+  #navDonate{
+	display: none;
+  }
+  }
+  
+/*
+     FILE ARCHIVED ON 03:08:55 Nov 28, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:52:53 Jul 20, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 122.833
+  exclusion.robots: 0.235
+  exclusion.robots.policy: 0.225
+  RedisCDXSource: 0.714
+  esindex: 0.008
+  LoadShardBlock: 102.263 (3)
+  PetaboxLoader3.datanode: 115.085 (4)
+  CDXLines.iter: 17.452 (3)
+  load_resource: 89.792
+  PetaboxLoader3.resolve: 62.295
+*/

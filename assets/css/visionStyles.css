@@ -1,0 +1,101 @@
+/*vision background video*/
+.video-section{
+	height: 30rem;
+	width: 100%;
+	position: absolute;
+	object-fit: contain;
+	-o-object-fit: contain;
+	overflow: hidden;
+}
+
+#bgvideo{
+	position: absolute;
+	width: 100%;
+	height: auto;
+	z-index: 1;
+
+}
+
+
+#vision-body{
+	position: relative;
+	z-index: 10;
+}
+
+.video-layer{
+	position: absolute;
+	height: 30rem; 
+	min-width: 100%;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 2;
+}
+
+.mobilebg{
+	height: 30rem;
+	width: 100%;
+}
+
+/*mobile background image*/
+.bg-image{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/web/20201128030854im_/https://www.christine4council2020.com/assets/img/athertonpark.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: scroll;
+	-o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+	background-size: cover;
+}
+
+.bar{
+	width: 100%;
+	height: auto;
+	max-width:1100px;
+	padding: 25px 265px 25px 265px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: -10rem;
+	margin-bottom: -3rem;
+	z-index: 20;
+	bottom: 0;
+	position: absolute;
+	display:flex;
+	
+}
+
+/*popup picture*/
+.modal-pic{
+	background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 1)), url("/web/20201128030854im_/https://www.christine4council2020.com/assets/img/colorweblogo.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: scroll;
+	-o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+	background-size: cover;
+
+}
+
+
+/*
+     FILE ARCHIVED ON 03:08:54 Nov 28, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:54:49 Jul 20, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 278.382
+  exclusion.robots: 0.138
+  exclusion.robots.policy: 0.111
+  RedisCDXSource: 1.911
+  esindex: 0.016
+  LoadShardBlock: 253.079 (3)
+  PetaboxLoader3.datanode: 258.178 (4)
+  CDXLines.iter: 20.121 (3)
+  load_resource: 85.041
+  PetaboxLoader3.resolve: 36.641
+*/
